@@ -10,7 +10,7 @@ const Navbar = () => {
         return [
           <Link className='nav-items' to='/profile'><li>Profile</li></Link>,
           <Link className='nav-items' to='/createpost'><li >Create Post</li></Link>,
-          <Link className='nav-items' to='/myfollowerspost'><li >following post</li></Link>,
+          <Link className='nav-items' to='/'><li >Explore</li></Link>,
           <li >
             <button className='nav-logout' onClick={()=>{
               localStorage.clear()
@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className='container'>
         <ul className="list-container">
             <li >
-            <Link className='nav-logo'  to={state?'/':'/login'}>logo</Link>
+            <Link className='nav-logo'  to={state?'/myfollowerspost':'/login'}>logo</Link>
             </li>
             <li>
                 <ul className="list-container-right">
