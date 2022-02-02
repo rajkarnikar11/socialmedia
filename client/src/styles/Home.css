@@ -1,0 +1,59 @@
+.home-container{
+    padding: 10px 0;
+    margin: 26px auto ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0px 10px rgb(0, 0, 0,.3);
+    max-width:500px ;
+    height: max-content;
+    
+}
+.card-content{
+    padding: 20px;
+}
+.home-name{
+    padding: 10px;
+    font-size: medium;
+    color: #191919;
+    
+}
+.home-card-title{
+    padding:  0px 0px;
+    font-size: large;
+}
+.home-comment{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgb(219, 219, 219,.1);
+}
+.card-image{
+    max-height:670px ;
+    width:500px ;
+    object-fit: cover;
+   
+
+}
+.full{
+    color: rgb(175, 4, 38);
+    cursor: pointer;
+}
+.border{
+    cursor: pointer;
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.delete-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding: 2px;
+    cursor: pointer;
+}

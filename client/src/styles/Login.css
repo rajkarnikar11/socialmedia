@@ -1,0 +1,93 @@
+.cardContainer{
+    max-width: 500px;
+    /* background-color: blue; */
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 10px 20px;
+    padding-bottom:160px ;
+    
+    
+   
+}
+input[type=file]::file-selector-button {
+    
+    outline: none;
+    border: none;
+    background-color: crimson;
+    cursor: pointer; 
+    padding: 6px;
+    text-align: center;
+    position: absolute;
+    opacity: 00;  
+    box-shadow: 0 0 5px;
+    left: 0;
+    width: 120px;
+  }
+.detailcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-between;
+    height: 200px;
+}
+.text{
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    background-color: rgb(214, 214, 214);
+    margin-top: 15px;
+}
+.text:hover{
+    background: white;
+}
+.button{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #808000;
+    
+}
+.button:hover{
+    background-color: #4B5320;
+}
+.link{
+    font-size: small;
+    font-weight: 400;
+    text-decoration: darkgray;
+    color: grey;
+    width: 500px;
+
+}
+.linkcontainer{
+  
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+.propic-up-container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    width: 100%;
+}
+.propic-up-button{
+    background-color: olive;
+    margin: 0 10px ;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.address{
+    margin-top: 5px;
+    border-bottom: 1px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
